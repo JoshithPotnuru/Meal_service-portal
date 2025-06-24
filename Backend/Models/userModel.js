@@ -1,5 +1,5 @@
 const db = require("../connection");
-const bcrypt = require("bcrypt");
+const bcrypt = require('bcryptjs');
 
 const createUser = async ({ firstName, lastName, phoneNumber, email, password }) => {
     let connection;

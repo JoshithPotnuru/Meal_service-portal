@@ -1,8 +1,7 @@
 const db = require("../connection");
 const nodemailer = require("nodemailer");
 const crypto = require("crypto");
-const bcrypt = require("bcrypt");
-
+const bcrypt = require('bcryptjs');
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
