@@ -73,6 +73,7 @@ git clone https://github.com/your-username/Meal_service_portal.git
 
 ### 🔹 2. Setup Backend
 cd Backend
+
 npm install
 
 ---
@@ -81,7 +82,9 @@ npm install
 
 Open a new terminal:
 cd Frontend
+
 npm install
+
 npm run dev
 
 ## 📄 License
