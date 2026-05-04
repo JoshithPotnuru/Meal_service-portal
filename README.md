@@ -62,6 +62,28 @@ A web application designed to streamline the hostel mess operations in college c
 
 ---
 
+
+## ▶️ Steps to Run the Project
+
+### 🔹 1. Clone the Repository
+git clone https://github.com/your-username/Meal_service_portal.git
+
+
+---
+
+### 🔹 2. Setup Backend
+cd Backend
+npm install
+
+---
+
+### 🔹 3. Setup Frontend
+
+Open a new terminal:
+cd Frontend
+npm install
+npm run dev
+
 ## 📄 License
 
 This project is for academic use only.
