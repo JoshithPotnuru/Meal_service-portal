@@ -1,5 +1,6 @@
 const db = require("../connection");
 
+
 const fetchExpenditureData = async (req, res) => {
   let connection;
   try {
