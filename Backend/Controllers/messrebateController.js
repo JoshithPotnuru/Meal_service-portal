@@ -8,6 +8,7 @@ const submitRebateRequest = async (req, res) => {
   try {
     connection = await db.getConnection();
 
+    
     // Check if student exists
     const studentResult = await connection.execute(
       `SELECT enroll FROM students WHERE enroll = :enroll OR user_id = :userId`,
