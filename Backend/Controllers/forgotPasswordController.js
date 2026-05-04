@@ -10,6 +10,7 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+
 const requestPasswordReset = async (req, res) => {
   try {
     const { email } = req.body;
