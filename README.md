@@ -54,11 +54,11 @@ A web application designed to streamline the hostel mess operations in college c
 
 | Name              | Roll Number   |
 |-------------------|---------------|
-| Rahul Pallabothula | IIT2023178    |
-| Syam Prasad        | IIT2023181    |
-| Rabba Sudheer      | IIT2023184    |
-| Sagar Nani         | IIT2023109    |
-| Aman Bijarnia      | IIT2023163    |
+|Joshith            | IIT2024237   |
+| Surendra Reddy    | IIT2024224    |
+| Shiva Krishna     | IIT2024222    |
+| Harshith          | IIT2024225    |
+| vikas             | IIB2024036    |
 
 ---
 
