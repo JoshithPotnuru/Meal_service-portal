@@ -4,6 +4,7 @@ const { z } = require("zod");
 const db = require("../connection");
 const { createUser } = require('../Models/userModel');
 
+
 const userSchemaValidate = z.object({
   firstName: z.string().min(1, "First name is required"),
   lastName: z.string().optional(),
