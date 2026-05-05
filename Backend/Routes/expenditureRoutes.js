@@ -6,4 +6,5 @@ const { fetchExpenditureData, fetchEmployeesExpenditureData } = require('../Cont
 router.get('/fetch/inventory', authenticateToken, authorizeAdmin, fetchExpenditureData);
 router.get('/fetch/employees', authenticateToken, authorizeAdmin, fetchEmployeesExpenditureData);
 
+
 module.exports = router;
